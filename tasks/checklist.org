@@ -5,11 +5,11 @@
 
 * Index/homepage checklist
 
-** [25%] Index/Homepage tracking
+** [50%] Index/Homepage tracking
 - [X] create the navigation bar based on the wireframe
 - [ ] make picture slideshow card component
 - [ ] alerts in effect card component
-- [ ] create footer bar
+- [X] create footer bar
 
 * Alerts checklist
 
