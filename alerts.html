@@ -96,16 +96,16 @@
       
       
     const slideshow = document.getElementById("slideshow");
-      
+
     let i = 0;
     slideshow.src = images[i];
-      
+
     setInterval(() => {
         i++;
         if (i >= images.length) {
             i = 0;
         }
-                slideshow.src = images[i];
+        slideshow.src = images[i];
     }, 3000); // Change image every 3 seconds
     </script>
 
