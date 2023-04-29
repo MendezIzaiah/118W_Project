@@ -1,0 +1,23 @@
+#+title: Checklist
+#+DESCRIPTION: Checklist for page development
+#+AUTHOR: Izaiah Mendez
+#+OPTIONS: num:nil toc:nil date:nil author:nil
+
+* Index/homepage checklist
+
+** [50%] Index/Homepage tracking
+- [X] create the navigation bar based on the wireframe
+- [ ] make picture slideshow card component
+- [ ] alerts in effect card component
+- [X] create footer bar
+
+* Alerts checklist
+
+** [ ] Alerts page tracking
+- [ ] create alerts card component with:
+  - alert description
+  - time start
+  - Time end
+- [ ] Park status opened/closed
+
+
