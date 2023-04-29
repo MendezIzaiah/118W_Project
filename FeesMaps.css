@@ -37,8 +37,26 @@
     margin-right: 25px;
     transition: transform 0.3s ease-in-out;
 }
+.fee-box2 {
+  background-color: #63d379;
+  border: 1px solid #ffdbdb;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  margin-left: 350px;
+  margin-right: 350px;
+  transition: transform 0.3s ease-in-out;
+}
 
 .fee-box:hover {
+    transform: scale(1.05);
+  }
+  .fee-box2:hover {
     transform: scale(1.05);
   }
 
@@ -51,6 +69,29 @@
     padding-bottom: ;
     border-radius: 10px;
     border: 1px solid #ffdbdb;
+  
+}
+.item-box2 {
+  text-align: center;
+  background-color: aqua;
+  padding-right: 2.5px;
+  padding-left: 2.5px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 10px;
+  border: 1px solid #ffdbdb;
+  display: block;
+}
+.item-box3 {
+  text-align: center;
+  background-color: aqua;
+  padding-right: 0px;
+  padding-left: 0px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 10px;
+  border: 1px solid #ffdbdb;
+  display: block;
 }
 
 .fees-container {
@@ -58,6 +99,13 @@
     justify-content: center;
     background-color: #008000;
     transition: transform 0.5s ease-in-out;
+}
+
+.fees-container2 {
+  
+  justify-content: center;
+  background-color: #008000;
+  
 }
 
 .FeeFree {
@@ -200,6 +248,16 @@
     transform: scale(1.05);
   }
 
+
+  li {
+    font-size: 18px;
+    line-height: 1.5;
+    color: #333;
+    background-color: #f9f9f9;
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+  }
 
   
   
