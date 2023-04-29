@@ -19,3 +19,5 @@
   - time start
   - Time end
 - [ ] Park status opened/closed
+
+
