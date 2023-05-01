@@ -1,0 +1,264 @@
+.FeeHead {
+    background-color: ;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 36px;
+    font-weight: bold;
+    text-shadow: 2px 2px #333;
+}
+
+/*
+.fee-box {
+    text-align: center;
+    background-color: grey;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top: 10px;
+    padding-bottom: 40px;
+}
+
+*/
+
+.fee-box {
+    background-color: #63d379;
+    border: 1px solid #ffdbdb;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 25px;
+    margin-right: 25px;
+    transition: transform 0.3s ease-in-out;
+}
+.fee-box2 {
+  background-color: #63d379;
+  border: 1px solid #ffdbdb;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  margin-left: 350px;
+  margin-right: 350px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.fee-box:hover {
+    transform: scale(1.05);
+  }
+  .fee-box2:hover {
+    transform: scale(1.05);
+  }
+
+.item-box {
+    text-align: center;
+    background-color: aqua;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: ;
+    border-radius: 10px;
+    border: 1px solid #ffdbdb;
+  
+}
+.item-box2 {
+  text-align: center;
+  background-color: aqua;
+  padding-right: 2.5px;
+  padding-left: 2.5px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 10px;
+  border: 1px solid #ffdbdb;
+  display: block;
+}
+.item-box3 {
+  text-align: center;
+  background-color: aqua;
+  padding-right: 0px;
+  padding-left: 0px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 10px;
+  border: 1px solid #ffdbdb;
+  display: block;
+}
+
+.fees-container {
+    display: flex;
+    justify-content: center;
+    background-color: #008000;
+    transition: transform 0.5s ease-in-out;
+}
+
+.fees-container2 {
+  
+  justify-content: center;
+  background-color: #008000;
+  
+}
+
+.FeeFree {
+    justify-content: center;
+    padding: 20px;
+    display: flex;
+    background-color: green;
+    
+}
+
+.FeeFreeSub {
+    background-color: #63d379;
+    border: 1px solid #ffdbdb;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 25px;
+    margin-right: 25px;
+    min-width: 1000px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.UnderFee {
+    justify-content: center;
+    padding: 20px;
+    display: flex;
+}
+
+.Purchase {
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+    background-color: #2ecc71;
+    border: none;
+    color: #fff;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.Purchase:hover {
+    background-color: #27ae60;
+}
+
+
+.Photo {
+    max-width: 200px ;
+    max-height: 200px ;
+    min-width: 200px;
+    min-height: 200px;
+    margin: 20px;
+}
+
+.MiniHead {
+    background-color: ;
+    color: green;
+    padding-top: 10px;
+    padding-bottom: 2px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 12px;
+    font-weight: bold;
+    text-shadow: 1px 1px #333;
+}
+
+.ItemList {
+    font-size: 18px;
+    line-height: 1.5;
+    color: #333;
+    background-color: #f9f9f9;
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+  }
+
+/* dropdown info box css */
+
+.dropdown-main {
+    position:relative;
+    align-items: center;
+    display: inline-block;
+    cursor: pointer;
+    background-color: ;
+  }
+  
+  .dropdown-photo-container {
+    position: relative;
+    display: inline-block;
+    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+  }
+  
+  .dropdown-photo {
+    max-width: 50%;
+    max-height: 50%;
+    cursor: pointer;
+    display: inline-block;
+    transition: transform 0.5s ease-in-out;
+  }
+
+  .dropdown-content {
+    visibility: hidden;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -15px);
+    background-color: #f9f9f9;
+    width: 160px;
+    padding: 10px;
+    z-index: 1;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+    pointer-events: none;
+  }
+  
+  .dropdown-photo-container:hover .dropdown-photo {
+    transform: rotate(180deg);
+  }
+  
+  .dropdown-photo-container:hover .dropdown-content {
+    
+    transform: translate(-50%, 0px);
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+  }
+
+  .dropdown-photo-container:not(:hover) .dropdown-content {
+    
+    transform: translate(-50%, -15px);
+    opacity: 0;
+    visibility: visible; 
+    pointer-events: none;
+  }
+
+  .FeeFreeSub:hover {
+    transform: scale(1.05);
+  }
+
+
+  li {
+    font-size: 18px;
+    line-height: 1.5;
+    color: #333;
+    background-color: #f9f9f9;
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+  }
+
+  
+  
+
