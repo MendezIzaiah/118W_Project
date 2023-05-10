@@ -43,3 +43,8 @@ __pycache__/
 # virtual environment #
 #######################
 venv/
+
+# configs #
+#######################
+donate-struc.js
+donate.js
