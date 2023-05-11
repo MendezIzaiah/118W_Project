@@ -68,18 +68,18 @@
               </div>
           </div>
 
-    <script src="script.js"></script>
+          <script src="script.js"></script>
 
     <div class = "form">
-      <form action="register.html" method="POST">
+        <!--<form action="register.html" method="POST">-->
 
 
   
   <form>
-      <label>Select a date:</label>
+      <label style="color: white;">Select a date:</label>
       <input type="date" id="date" name="date">
 
-      <button onclick = "send()">Sign Up</button>
+      <button onclick = "send_cal()">Sign Up</button>
        </form>
   </div>
 
@@ -117,6 +117,21 @@
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-database.js"></script>
+
+<script src="cal_func.js"></script>
+<!--
+<script>
+
+function log_form() {
+    const dateInput = document.getElementById("date").value;
+
+    console.log("Date:", dateInput);
+}
+</script>
+-->
 
   </body>
 </html>

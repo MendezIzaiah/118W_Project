@@ -46,5 +46,7 @@ venv/
 
 # configs #
 #######################
-donate-struc.js
+donate-struc.json
 donate.js
+cal_func.js
+date-struc.json
